@@ -1,0 +1,21 @@
+
+#Imp 
+data 
+uploads
+
+# ---- Node Modules ----
+node_modules/
+
+# ---- Environment Variables ----
+.env
+
+
+
+# ---- System Files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE & Editor Files ----
+.vscode/
+.idea/
+*.swp
