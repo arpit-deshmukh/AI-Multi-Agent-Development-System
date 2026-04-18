@@ -1,21 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
 
-#Imp 
-data 
-uploads
+# Data & Uploads
+data/
+uploads/
 
-# ---- Node Modules ----
+# Dependency directories
 node_modules/
 
-# ---- Environment Variables ----
+# Build outputs
+dist/
+build/
+
+# Environment Variables
 .env
+.env.*.local
 
-
-
-# ---- System Files ----
+# System Files
 .DS_Store
 Thumbs.db
 
-# ---- IDE & Editor Files ----
+# IDE & Editor Files
 .vscode/
 .idea/
 *.swp
+
+# Miscellaneous
+.eslintcache
+.cache/
